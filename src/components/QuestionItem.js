@@ -14,9 +14,6 @@ function QuestionItem({ question, onDelete }) {
       body: JSON.stringify({ correctIndex: newCorrectIndex }),
     })
       .then((response) => response.json())
-      .then((updatedQuestion) => {
-        // Optionally update state if needed
-      })
       .catch((error) => console.error("Error updating question:", error));
   }
 

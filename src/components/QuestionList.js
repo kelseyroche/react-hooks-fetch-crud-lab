@@ -1,5 +1,5 @@
 import React from "react";
-import QuestionItem from "./QuestionItem"; // Adjust the path as necessary
+import QuestionItem from "./QuestionItem"; 
 
 function QuestionList({ questions, onDeleteQuestion }) {
   return (
